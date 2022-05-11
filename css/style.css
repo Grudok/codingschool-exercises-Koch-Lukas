@@ -1,0 +1,56 @@
+body {
+    margin: 125px;
+    padding: 125px;
+    font-family: "Lato", sans-serif;
+    font-size: 20pt;
+    font-weight: normal;
+    background: -webkit-linear-gradient(
+      -90deg,
+      lightblue,
+      black
+    )
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 1rem 0.875rem;
+}
+
+
+.title-style{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem 0.875rem;
+} 
+
+.counter-container{
+    height: 200px;
+    width: 500px;
+    border: 10px solid #243524;
+    margin: 50px auto;
+}
+
+#result{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 25px;
+}
+#increment{
+   height: 25px;
+   width: 100px;
+   margin-top: 50px;
+   margin-left: 125px;
+}
+
+#decrement{
+    height: 25px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
